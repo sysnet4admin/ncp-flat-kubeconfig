@@ -32,6 +32,7 @@ successfully flatting NKS's kubeconfig
 ```bash
 $ kubectl config get-contexts
 ```
+
 CURRENT   | NAME       | CLUSTER     | AUTHINFO         | NAMESPACE
 ----      | ----       | ----        | ----             |  ----
 *         |    nks     | kubernetes  | kubernetes-admin |
