@@ -1,4 +1,4 @@
-# `ncp-flat-kubeconfig`: Flat kubeconfig for NKS(Naver Kubernetes Service)
+# `ncp-flat-kubeconfig`: Flat kubeconfig for NKS
 
 [![version](https://img.shields.io/badge/version-0.1-yellow.svg)](https://semver.org)
 ![Proudly written in Bash](https://img.shields.io/badge/written%20in-bash-ff69b4.svg)
