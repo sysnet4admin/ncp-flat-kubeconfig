@@ -18,8 +18,11 @@ And it doesn't support to flat kubeconfig function yet.
 Thus use to flat and rename the kubeconfig. 
 
 ## Usage
+kubeconfig.yaml is hard coded due to it fixed 
+If it needs, I will change it. 
 ```bash 
-$ ncp-flat-kubeconfig <kubeconfig.yaml>
+$ ncp-flat-kubeconfig 
+successfully flatting NKS's kubeconfig
 ```
 
 -----
@@ -27,5 +30,8 @@ $ ncp-flat-kubeconfig <kubeconfig.yaml>
 ## Check
 
 ```bash
-$ kubectl config get-contexts 
-```
+$ kubectl config get-contexts
+CURRENT   | NAME    | CLUSTER | AUTHINFO | NAMESPACE
+----      | ----    | ----    | ----     |  ----
+*         |    nks  | kubernetes | kubernetes-admin |
+         |   nks-0346 | nks-KR-0346 | nks-user
