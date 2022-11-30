@@ -6,6 +6,9 @@
 
 -----
 
+## Prerequisite
+Yaml Parser(yq)
+
 ## Environment
 Support only NKS(Naver Kubernetes Serivce)
 
