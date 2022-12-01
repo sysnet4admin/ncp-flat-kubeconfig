@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+[[ -n $DEBUG ]] && set -x
+set -eou pipefail
+IFS=$'\n\t'
+
+NAME=ncp-flat-kubeconfig 
+
+copy_to_bin(){
+curl https://raw.githubusercontent.com/sysnet4admin/ncp-flat-kubeconfig/main/$NAME -o /usr/local/bin/$NAME 
+}
+
+main() {
+  copy_to_bin
+  echo "successfully installed $NAME"
+}
+
+main "$@"
