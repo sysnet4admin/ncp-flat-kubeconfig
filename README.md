@@ -1,8 +1,11 @@
 # `ncp-flat-kubeconfig`: Flat kubeconfig for NKS
 
-[![version](https://img.shields.io/badge/version-0.1-yellow.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.2-yellow.svg)](https://semver.org)
 ![Proudly written in Bash](https://img.shields.io/badge/written%20in-bash-ff69b4.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## **`ncp-flat-kubeconfig`** DEMO 
+![ncp-flat-kubeconfig-demo GIF](img/ncp-flat-kubeconfig-demo.gif)
 
 -----
 
