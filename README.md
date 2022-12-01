@@ -36,3 +36,20 @@ CURRENT   | NAME       | CLUSTER     | AUTHINFO         | NAMESPACE
 *         | nks        | kubernetes  | kubernetes-admin |
           | nks-0346   | nks-KR-0346 | nks-user         | 
 ```
+
+-----
+
+## Installation
+
+### One time runner 
+`kubeconfig.yaml` must be in a same folder
+```bash 
+curl https://raw.githubusercontent.com/sysnet4admin/ncp-flat-kubeconfig/main/ncp-flat-kubeconfig | bash
+```
+
+### Installation (macOS and Linux)
+
+```bash
+curl https://raw.githubusercontent.com/sysnet4admin/ncp-flat-kubeconfig/main/install | bash
+```
+
